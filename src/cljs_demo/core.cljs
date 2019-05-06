@@ -3,9 +3,6 @@
             materialize-css
             [cljs-demo.components.home :refer [home-component]]))
 
-(defn handler [event]
-  (js/alert "HOWDY!"))
-
 (defn start []
   (mount (js/document.getElementById "app") (home-component)))
 
