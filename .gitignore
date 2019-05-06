@@ -1,0 +1,8 @@
+.idea/
+*.iml
+.nrepl-port
+.shadow-cljs/
+node_modules/
+pom.xml
+target/
+public/js/compiled
