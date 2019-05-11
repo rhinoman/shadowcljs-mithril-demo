@@ -3,7 +3,6 @@
             [cljs-demo.components.main :refer [main-component]]))
 
 (defn click-handler [event]
-  (.preventDefault event)
   (js/alert "CLICKED!!!!"))
 
 (defn home-view [vnode]
